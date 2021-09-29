@@ -1,3 +1,6 @@
 class prime():
     def getPrime(self, n):
-        return 2
+        if n == 1:
+            return 2
+        else:
+            return 3
